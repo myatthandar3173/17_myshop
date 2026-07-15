@@ -4,8 +4,8 @@ import ItemCard from "../components/ItemCard.jsx";
 const INITIAL_COUNT = 9;
 const STEP = 9;
 
-// src/pages/Home.jsx
-export default function Home({ favorites }) {
+// 💡 Props に "cart" を追加します
+export default function Home({ favorites, cart }) {
   const [items, setItems] = useState([]);
   const [visibleCount, setVisibleCount] = useState(INITIAL_COUNT);
   const [loading, setLoading] = useState(true);
@@ -31,9 +31,9 @@ export default function Home({ favorites }) {
       <h2 className="home__title">item</h2>
       <ul className="home__list">
         {visibleItems.map((item) => (
-          // Home.jsx の一覧部分。<ItemCard> に favorites を追加で渡す
           <li key={item.id}>
-            <ItemCard item={item} favorites={favorites} />
+            {/* 💡 ItemCard に cart もしっかりと渡します */}
+            <ItemCard item={item} favorites={favorites} cart={cart} />
           </li>
         ))}
       </ul>

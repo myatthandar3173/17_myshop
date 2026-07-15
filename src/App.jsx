@@ -7,9 +7,7 @@ import About from "./pages/About.jsx";
 import Favorites from "./pages/Favorites.jsx";
 import Cart from "./pages/Cart.jsx";
 import { useFavorites } from "./hooks/useFavorites.js";
-// src/App.jsx のimportに追加
 import { useCart } from "./hooks/useCart.js";
-
 
 export default function App() {
   const favorites = useFavorites();
@@ -24,7 +22,8 @@ export default function App() {
           <Route path="/items/:id" element={<ItemDetail favorites={favorites} cart={cart} />} />
           <Route path="/about" element={<About />} />
           <Route path="/favorites" element={<Favorites favorites={favorites} cart={cart} />} />
-          <Route path="/cart" element={<Cart cart={cart} />} />        </Routes>
+          <Route path="/cart" element={<Cart cart={cart} />} />
+        </Routes>
       </main>
       <Footer />
     </div>

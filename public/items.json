@@ -59,6 +59,18 @@
       "code": "MS-005",
       "color": "クリア",
       "size": "1〜2杯用"
+    },
+    {
+      "id": "1",
+      "name": "商品名サンプル",
+      "image": "https://example.com/image.jpg",
+      "price": 1200,
+      "category": "カテゴリ名",
+      "description": "商品の説明文",
+      "status": "available",
+      "code": "PROD-001",
+      "color": "Red",
+      "size": "M"
     }
   ]
 }

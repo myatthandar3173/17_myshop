@@ -1,11 +1,11 @@
 :root {
-  --color-bg: #fafafa;
-  --color-text: #222;
-  --color-muted: #888;
-  --color-accent: #ff5a5f;
-  --color-border: #e5e5e5;
-  --color-header: #d9d9d9;
-  --font-family: "Helvetica Neue", "Hiragino Sans", "Yu Gothic", sans-serif;
+  --color-bg: #F8FCFF;
+  --color-text: #2C3E50;
+  --color-muted: #8B8B8B;
+  --color-accent: #FF8BA7;
+  --color-border: #DCEAF7;
+  --color-header: #EAF6FF;
+  --font-family: "Cormorant Garamond", serif;
   --max-width: 960px;
   --card-radius: 4px;
 }
@@ -40,6 +40,7 @@ button {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 .app {
@@ -122,6 +123,31 @@ img {
   font-size: 14px;
   color: #555;
 }
+
+.site-header__hero {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(8px);
+  padding: 32px 24px;
+  border-radius: 16px;
+  max-width: 700px;
+  margin: 24px auto 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+}
+
+.site-header__title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.site-header__subtitle {
+  font-size: 0.85rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+
 
 /* ---------- Footer ---------- */
 

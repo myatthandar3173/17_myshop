@@ -64,6 +64,18 @@ export default function ItemDetail() {
             <dt>サイズ</dt>
             <dd>{item.size}</dd>
           </div>
+          {item.series && (
+            <div className="item-detail__spec">
+              <dt>シリーズ</dt>
+              <dd>{item.series}</dd>
+            </div>
+          )}
+          {item.material && (
+            <div className="item-detail__spec">
+              <dt>素材</dt>
+              <dd>{item.material}</dd>
+            </div>
+          )}
         </dl>
       </div>
     </div>

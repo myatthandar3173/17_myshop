@@ -2,27 +2,29 @@
   "items": [
     {
       "id": "001",
-      "name": "MacBook Air M3",
-      "image": "/images/item-dammy.webp",
-      "price": 164800,
-      "category": "ガジェット",
-      "description": "毎日使ってる相棒。軽くて持ち運びやすい。",
+      "name": "Stitch BlindBox",
+      "image": "/images/item1.png",
+      "price": 3000,
+      "category": "フィギュア",
+      "description": "どのデザインが出るかは開けてからのお楽しみ！かわいいスティッチのブラインドボックス。",
       "status": "onsale",
-      "code": "MS-001",
-      "color": "ミッドナイト",
-      "size": "13インチ"
+      "code": "SB-001",
+      "series": "Lilo & Stitch",
+      "material": "PVC"
     },
     {
       "id": "002",
-      "name": "無印良品のマグカップ",
-      "image": "/images/item-dammy.webp",
-      "price": 590,
-      "category": "キッチン",
-      "description": "コーヒーもスープもこれ一つ。",
-      "status": "soldout",
-      "code": "MS-002",
-      "color": "白",
-      "size": "約330ml"
+      "name": "ボンボンドロップシール スティッチ",
+      "brand": "サンスター",
+      "image": "/images/item2.png",
+      "price": 550,
+      "category": "シール",
+      "description": "ぷっくりとした立体感がかわいいスティッチのボンボンドロップシール。ノートやスマホケース、手帳のデコレーションにぴったりです。",
+      "status": "onsale",
+      "code": "ST-001",
+      "series": "Disney Stitch",
+      "material": "PVC",
+      "size": "約20 × 9cm"
     },
     {
       "id": "003",
@@ -63,7 +65,7 @@
     {
       "id": "1",
       "name": "商品名サンプル",
-      "image": "https://example.com/image.jpg",
+      "image": "/images/item-dammy.webp",
       "price": 1200,
       "category": "カテゴリ名",
       "description": "商品の説明文",
